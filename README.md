@@ -6,6 +6,7 @@ Hi! My name is Om Varma, I've created this MERN Stack E-Commerce Project
 # Install Dependencies
 
 **For Backend** - `npm i && npm run build && npm start`
+
 **For Frontend (in seperate repository** - `npm i && npm run dev`
 
 
