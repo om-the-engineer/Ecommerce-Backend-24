@@ -39,7 +39,7 @@ app.use(express.json());
 app.use(morgan("dev"));
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://e-commercemern.vercel.app/","https://ecommerce-server-qs93.onrender.com"],
+    origin: ["http://localhost:5173", "https://e-commercemern.vercel.app","https://ecommerce-server-qs93.onrender.com"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
     exposedHeaders: ["*", "Authorization"]
